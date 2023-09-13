@@ -1,4 +1,4 @@
-@Smoke
+@Sanity
 Feature: Retail Account Pageâ€‹
 
   Background: 

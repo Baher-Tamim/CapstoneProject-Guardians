@@ -1,4 +1,4 @@
-@Regression
+@Sanity
 Feature: Retail Home Page
 
   Background: 

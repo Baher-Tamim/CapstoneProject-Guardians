@@ -17,25 +17,25 @@ public class RetailOrderPage extends BaseSetup	{
 		@FindBy(xpath="//input[@id='searchInput']") public WebElement searchBox;
 		@FindBy(xpath = "//button[@class='search__btn']") public WebElement searchIcon;
 		@FindBy(xpath="//p[contains(text(),'Kasa Outdoor Smart Plug')]")public WebElement kasa;
-		@FindBy (xpath ="//select[@class='product__select']") public WebElement quantityOption;
+		@FindBy(xpath ="//select[@class='product__select']") public WebElement quantityOption;
 		@FindBy(xpath="//button[@id='addToCartBtn']") public WebElement addToCartBtn;
 		
 	// Adding Address on Order
 		@FindBy(xpath="//p[@class='products__name']") public WebElement ApexLegends;
 		@FindBy(id="cartBtn") public WebElement cartBtn;
-		@FindBy (id="proceedBtn") public WebElement proceedCheckoutBtn;
+		@FindBy(id="proceedBtn") public WebElement proceedCheckoutBtn;
 		@FindBy(xpath="//div[text()='Order Placed Successfully']")
 		public WebElement orderPlacedSuccessMsg;
 		
 
 		@FindBy(id="placeOrderBtn") public WebElement placeOrderBtn;
-		@FindBy (xpath="//div[@class='shadow md:w-3/4 bg-white p-4']")
+		@FindBy(xpath="//div[@class='shadow md:w-3/4 bg-white p-4']")
 		public WebElement orderConfirmationNumber;
 		@FindBy(id="cancelBtn") public WebElement orderCancelBtn;
 		@FindBy(id="buyAgainBtn") public WebElement orderBuyAgainBtn;
 		
 	// Canceling Order
-		@FindBy (xpath="//a[@id='orderLink']") public WebElement orderLink;
+		@FindBy(xpath="//a[@id='orderLink']") public WebElement orderLink;
 		@FindBy(xpath ="//div[@class='order']") public WebElement firstOrderPlaced;
 		@FindBy(xpath="//select[@id='reasonInput']") public WebElement cancelationReason;
 		@FindBy(xpath="//select[@id='reasonInput']//option[@value='damage']") public WebElement itemDamageOption;

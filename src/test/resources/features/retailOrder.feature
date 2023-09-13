@@ -1,10 +1,10 @@
-@End2End
+@Sanity
 Feature: Retail Order Page
 
   Background: 
     Given User is on retail website
     When User click on Sign in option
-    And User enter email 'kobi@tekschool.us' and password 'Password@123'
+    And User enter email 'capstone.baher@tekschool.us' and password 'Capstone@123'
     And User click on login button
     And User should be logged in into Account
 
@@ -63,7 +63,7 @@ Feature: Retail Order Page
     And User selects the Return Reason 'Item damaged'
     And User selects the drop off service 'FedEx'
     And User clicks on Return Order button
-    Then the cancelation message should be displayed 'Return was successful'
+    Then the cancelation message should be displayed 'Return was successfull'
 
   @addReview
   Scenario: Verify User can write a review on order placed
