@@ -52,7 +52,7 @@ Feature: Retail Account Pageâ€‹
   #Scenario: Verify User can edit an Address added on account
   #And User click on edit address option
   #And user fill new address form with below informations
-  #| country      | fullName | phoneNumber | streetAddress | apt | city    | state      | zipCode |
+  #| country       | fullName | phoneNumber | streetAddress | apt | city    | state      | zipCode |
   #| United States | Capstone | phoneNumber |          1234 |  89 | Hayward | California | zipcode |
   #And User click update Your Address button
   #Then update address message should be displayed 'Address Updated Successfully'
